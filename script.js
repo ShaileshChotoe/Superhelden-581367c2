@@ -37,13 +37,13 @@ function processResponse(response) {
 }
 
 function addRow(tableID, res, i) {
-    // Get a reference to the table
+    
     let table = document.getElementById(tableID);
   
-    // Insert a row at the end of the table
+    
     let newRow = table.insertRow();
   
-    // Insert a cell in the row at index 0
+    
     for(let j = 0; j < res[5][1][i].length; j++)
     {
         let newCell = newRow.insertCell();
